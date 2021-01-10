@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/explorebg"
+  >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="70dp"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:text="Career Previews"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_gravity="end"
+                    android:alpha="0.9"
+                    android:backgroundTint="#F0F4FC">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:text="PSYCHOLOGY and PSYCHOTHERAPY|\nCareerPreviews@ASPIRE by Shilpa Jain"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="268dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="50dp"
+                        android:text="I think for a woman financial independence is actually a state of mind. Learning to live within a budget, avoid overspending, saving money and investing wisely require developing character traits rather than financial acumen."
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/b1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="100dp"
+                        android:text="  read more "
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp">
+
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_gravity="end"
+                    android:alpha="0.9"
+                    android:backgroundTint="#F0F4FC">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:text="AVIATION: KANIKA TEKRIWAL  \nCareerPreviews@ASPIRE by Shilpa Jain"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="267dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="50dp"
+                        android:text="To the women trying to make it in the big bad world of business:it may seem impossible, but it’s kind of fun to do the impossible, isn’t it? Don’t give up. As I always say, use every no as a stepping stone to success..."
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/b2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginLeft="25dp"
+                        android:text="  read more "
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_gravity="end"
+                    android:alpha="0.9"
+                    android:backgroundTint="#F0F4FC">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:text="GAME DESIGN: POORNIMA SEETHARAMAN \nCareerPreviews@ASPIRE by Shilpa Jain"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="268dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="50dp"
+                        android:text="There is no formula to success. Don’t give up. Speak up; for yourselves and for others who can’t. Sometimes our baby steps in the right direction may end up helping someone else. It’s okay to be emotional. It’s okay to be not."
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/b3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginLeft="25dp"
+                        android:text="  read more "
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="315dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp">
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="150dp"
+                    android:layout_gravity="end"
+                    android:alpha="0.9"
+                    android:backgroundTint="#F0F4FC">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="15dp"
+                        android:text="PUBLIC RELATIONS: MALLIKA SONI \n CareerPreviews@ASPIRE by Shilpa Jain"
+                        android:textColor="@color/black"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="268dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="50dp"
+                        android:text="I don’t think there’s a set roadmap to getting into this space. You need to self educate a lot. There’s something new to learn every day and experience will teach you more than any book ever could in my opinion."
+                        android:textColor="@color/black"
+                        android:textSize="10sp" />
+
+                    <Button
+                        android:id="@+id/b4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginLeft="25dp"
+                        android:text="  read more "
+                        android:textColor="@color/white"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</LinearLayout>

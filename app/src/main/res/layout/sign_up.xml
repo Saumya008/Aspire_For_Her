@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+    android:background="@drawable/signup">
+
+    <TextView
+        android:id="@+id/textView0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="110dp"
+        android:text="Create an Account"
+       android:textColor="#00B0FF"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edit_text_border"
+        android:ellipsize="end"
+        android:hint="Full Name"
+        android:maxLines="1"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_border"
+        android:ellipsize="end"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_border"
+        android:ellipsize="end"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+    <EditText
+        android:id="@+id/passcon"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/edit_text_border"
+        android:ellipsize="end"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="280dp"
+        android:layout_height="49dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#00B0FF"
+
+        android:text="By creating an account you agree to our \nTerms of Services and Privacy Policy" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"
+        android:text="Submit"
+        />
+
+
+
+</LinearLayout>

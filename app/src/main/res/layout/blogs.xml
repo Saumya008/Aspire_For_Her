@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/blgbg"
+    >
+
+    <ImageView
+
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="110dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="0dp"
+        android:text="BLOGS"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+      />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp">
+
+                <ImageButton
+                    android:layout_width="280dp"
+                    android:layout_height="129dp"
+                    android:background="@drawable/edit_text_border"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/b1"
+                    android:tint="#48655B5B" />
+
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="29dp"
+                    android:text="    Neer Spires: \n\t\t\t Be Yourself  "
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c11"
+                    android:layout_width="280dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="90dp"
+                    android:alpha="0.9"
+                    android:backgroundTint="#F0F4FC">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/p1" />
+
+                    <TextView
+                        android:layout_width="129dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Neerja Ganesh"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Jan 3 - 7 min read "
+                        android:textColor="@color/black"
+                        android:textSize="7sp" />
+
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp">
+
+                <ImageButton
+                    android:layout_width="280dp"
+                    android:layout_height="129dp"
+                    android:background="@drawable/edit_text_border"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/wie"
+                    android:tint="#48655B5B" />
+
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="29dp"
+                    android:text="    WOMEN IN: \n\t\t\t ESPIONAGE  "
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c22"
+                    android:layout_width="280dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="90dp"
+                    android:alpha="0.9"
+                    android:backgroundTint="#F0F4FC">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/p2" />
+
+                    <TextView
+                        android:layout_width="129dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Priya Pandey"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Oct 24,2020 - 6 min read "
+                        android:textColor="@color/black"
+                        android:textSize="7sp" />
+
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp">
+
+                <ImageButton
+                    android:layout_width="280dp"
+                    android:layout_height="129dp"
+                    android:background="@drawable/edit_text_border"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/are"
+                    android:tint="#48655B5B" />
+
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="29dp"
+                    android:text="    Are you visualising: \n\t\t\t your goal?  "
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c33"
+                    android:layout_width="280dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="90dp"
+                    android:alpha="0.9"
+                    android:backgroundTint="#F0F4FC">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/p1" />
+
+                    <TextView
+                        android:layout_width="129dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Neerja Ganesh"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Nov 11,2020 - 11 min read "
+                        android:textColor="@color/black"
+                        android:textSize="7sp" />
+
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="40dp">
+
+                <ImageButton
+                    android:layout_width="280dp"
+                    android:layout_height="129dp"
+                    android:background="@drawable/edit_text_border"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/jay"
+                    android:tint="#48655B5B" />
+
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="29dp"
+                    android:text="    Are you visualising: \n\t\t\t your goal?  "
+                    android:textColor="@color/white"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/c44"
+                    android:layout_width="280dp"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="90dp"
+                    android:alpha="0.9"
+                    android:backgroundTint="#F0F4FC">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/p3" />
+
+                    <TextView
+                        android:layout_width="129dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="15dp"
+                        android:text="Jayita Gupta"
+                        android:textColor="@color/black"
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dp"
+                        android:layout_marginTop="30dp"
+                        android:text="Oct 17,2020 - 4 min read "
+                        android:textColor="@color/black"
+                        android:textSize="7sp" />
+
+                </androidx.cardview.widget.CardView>
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
